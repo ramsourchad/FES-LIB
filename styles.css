@@ -22,7 +22,7 @@ img{
     padding-top: 32px;
     width: 100%;
     max-width: 1200px;
-    padding: 0 24px;
+    padding: 0 24px; 
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -79,6 +79,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 }
 
 .header__description{
@@ -122,4 +123,5 @@ button:active {
 
 .header__img--wrapper{
     padding: 20px;
+    
 }
