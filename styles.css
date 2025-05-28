@@ -68,7 +68,7 @@ li{
 }
 
 header{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 80px);
 }
 
 .header__container{
@@ -117,11 +117,32 @@ button:active {
     font-size: 20px;
     border-radius: 5px;
     border: none;
-   
 
 }
-
 .header__img--wrapper{
-    padding: 20px;
+    padding: 20px;  
+} 
+
+.container {
+padding: 56px 0;
+}
+
+.row{
+width: 100%;
+max-width: 1200px;
+margin: 0 auto; 
+}
+/* HIGHLIGHTS*/
+
+.highlight__wrapper{
+    display: flex;
+    
+}.highlight{
+    padding: 0 24px;
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
