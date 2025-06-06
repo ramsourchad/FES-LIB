@@ -149,7 +149,7 @@ margin: 0 auto;
 
 .highlight__wrapper{
     display: flex;
-    flex-wrap: wrap;
+    
     
 }.highlight{
     padding: 0 24px;
